@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f8ff;
+}
+
+textarea, button, select {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 24px;
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 10px;
+    white-space: pre-wrap;
+}
