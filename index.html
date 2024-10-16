@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحويل النص بين العربية والإيزيدية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>تحويل النص بين العربية والإيزيدية</h1>
+    <textarea id="inputText" placeholder="أدخل النص هنا"></textarea>
+    <br>
+    <select id="direction">
+        <option value="toYezidi">من العربية إلى الإيزيدية</option>
+        <option value="toArabic">من الإيزيدية إلى العربية</option>
+    </select>
+    <br>
+    <button onclick="convertText()">تحويل</button>
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
